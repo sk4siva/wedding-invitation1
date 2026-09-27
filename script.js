@@ -1,6 +1,6 @@
 // ===== EDIT ONLY THIS OBJECT FOR EACH CUSTOMER =====
 const wedding = {
-  bride: "Aaradhya",
+  bride: "Agila",
   groom: "Arjun",
   shortDate: "23 · NOVEMBER · 2026",
   day: "23",

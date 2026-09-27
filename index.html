@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#15110f">
+  <title>Wedding Invitation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button class="music-btn" id="musicBtn" aria-label="Toggle music">♪</button>
+  <audio id="music" loop src="assets/music.mp3"></audio>
+
+  <main>
+    <section class="hero reveal">
+      <p class="eyebrow">TOGETHER WITH THEIR FAMILIES</p>
+      <h1><span data-field="bride">Aaradhya</span><br><i>&</i><br><span data-field="groom">Arjun</span></h1>
+      <p class="hero-date" data-field="shortDate">23 · NOVEMBER · 2026</p>
+      <div class="scroll-hint">SCROLL ↓</div>
+    </section>
+
+    <section class="intro reveal">
+      <p class="eyebrow">A BEAUTIFUL BEGINNING</p>
+      <h2>Two hearts.<br><i>One journey.</i></h2>
+      <p data-field="message">With the blessings of our families, we invite you to celebrate our special day with us.</p>
+    </section>
+
+    <section class="photo-section parallax-wrap">
+      <img class="parallax-img" data-field-src="couplePhoto" src="assets/couple.jpg" alt="Couple">
+    </section>
+
+    <section class="date-section reveal">
+      <p class="eyebrow">SAVE THE DATE</p>
+      <div class="big-date">
+        <span data-field="day">23</span>
+        <span data-field="month">NOVEMBER</span>
+        <span data-field="year">2026</span>
+      </div>
+    </section>
+
+    <section class="events reveal">
+      <p class="eyebrow">CELEBRATIONS</p>
+      <h2>Join us for<br><i>the moments.</i></h2>
+      <div id="events"></div>
+    </section>
+
+    <section class="venue reveal">
+      <div>
+        <p class="eyebrow">THE VENUE</p>
+        <h2 data-field="venue">Prem Hall</h2>
+        <p data-field="address">Your venue address goes here</p>
+        <a id="mapBtn" class="button" href="#" target="_blank">OPEN MAP</a>
+      </div>
+    </section>
+
+    <section class="closing reveal">
+      <p class="eyebrow">WITH LOVE</p>
+      <h2>We can't wait<br><i>to celebrate with you.</i></h2>
+      <p class="signature"><span data-field="bride">Aaradhya</span> & <span data-field="groom">Arjun</span></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

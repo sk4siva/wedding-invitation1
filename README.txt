@@ -1,30 +1,18 @@
-WEDDING INVITATION TEMPLATE
-===========================
+WEDDING INVITATION TEMPLATE V3 — COUNTDOWN
 
-1. Put your couple photo at:
-   assets/couple.jpg
+Includes:
+- Two-door opening animation
+- Music starts from the Open Invitation tap
+- Scroll reveal
+- Wedding date
+- Live countdown: Days / Hours / Minutes / Seconds
 
-2. Put your licensed/owned music file at:
-   assets/music.mp3
+For each customer:
+1. Replace assets/couple.jpg
+2. Replace assets/music.mp3
+3. Edit wedding details in script.js
+4. Change weddingDate in script.js:
+   const weddingDate = new Date("YYYY-MM-DDTHH:MM:SS").getTime();
 
-3. Open script.js and edit only the "wedding" object:
-   - bride
-   - groom
-   - date
-   - message
-   - venue
-   - address
-   - mapUrl
-   - events
-
-4. Open index.html in a browser to preview.
-
-For selling/customizing:
-- Keep the design files as your master template.
-- Duplicate the folder for each customer.
-- Replace customer details and photos.
-- Upload the folder to your hosting.
-- Send the customer the invitation URL.
-
-Note:
-Mobile browsers generally block automatic audio playback until the visitor interacts with the page. The music button is included for reliable playback.
+Example:
+const weddingDate = new Date("2026-11-23T09:00:00").getTime();

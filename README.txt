@@ -1,18 +1,1 @@
-WEDDING INVITATION TEMPLATE V3 — COUNTDOWN
-
-Includes:
-- Two-door opening animation
-- Music starts from the Open Invitation tap
-- Scroll reveal
-- Wedding date
-- Live countdown: Days / Hours / Minutes / Seconds
-
-For each customer:
-1. Replace assets/couple.jpg
-2. Replace assets/music.mp3
-3. Edit wedding details in script.js
-4. Change weddingDate in script.js:
-   const weddingDate = new Date("YYYY-MM-DDTHH:MM:SS").getTime();
-
-Example:
-const weddingDate = new Date("2026-11-23T09:00:00").getTime();
+Wedding Invitation V5 — date/countdown updated to 12 December 2026. Countdown target is 12 Dec 2026 at 9:00 AM. Replace customer details in script.js. Assets included: couple.jpg and music.mp3.
